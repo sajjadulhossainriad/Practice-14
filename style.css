@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    color: white;
+    background-color:blue;
+    text-transform: capitalize;
+    text-align: center;
+    display: inline-block;
+    margin: 30px 50px;
+}
+#ipractice{
+    color: white;
+    background-color: green;
+    text-align: center;
+    text-transform: capitalize;
+    display: inline-block;
+    margin: 30px;
+}
+.nested{
+    margin: 20px 150px;
+}
+ul.nested li a{
+    color: blue;
+    text-transform: uppercase;
+}
+.child{
+    margin: 10px 300px;
+    text-transform: uppercase;
+}
+ol.child li:first-child a{
+    color: green;
+}
+.child li:nth-child(even) a{
+    color: red;
+}
+.child li:nth-child(odd) a {
+    color: indigo;
+}
+.randomly{
+    text-transform: capitalize;
+    margin: 10px 500px;
+    font-size: 30px;
+}
+.randomly li:nth-child(1) a{
+    color: red;
+}
+.randomly li:nth-child(2) a{
+    color: green;
+}
+.randomly li:nth-child(3) a{
+    color: blue;
+}
+.randomly li:nth-child(4) a{
+    color: purple;
+}
+.randomly li:nth-child(5) a{
+    color: black;
+}
+.randomly li:nth-child(6) a{
+    color: orange;
+}
+.randomly li:nth-child(7) a{
+    color: royalblue;
+}
+.randomly li:nth-child(8) a{
+    color: salmon;
+}
+.randomly li:nth-child(9) a{
+    color: seagreen;
+}
